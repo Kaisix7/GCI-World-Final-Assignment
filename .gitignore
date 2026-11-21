@@ -28,3 +28,7 @@ data/processed/features_clean.csv
 catboost_info/
 data/raw/Client.csv
 data/raw/Record.csv
+
+
+# Private GCI dataset
+drive-download-20261120T051651Z-1-001/Final Assignment/telecom/
