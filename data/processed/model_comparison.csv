@@ -1,0 +1,7 @@
+Model,Val AUC,Test AUC,Test Accuracy,Test F1,Test Precision,Test Recall
+Tri-Blend Benchmark (50/30/20),0.7052,0.7019,0.6439,0.6438,0.6383,0.6494
+Tuned LightGBM V3 (Champion),0.7051,0.7015,0.6438,0.6437,0.6382,0.6493
+Tuned XGBoost V3,0.7011,0.6981,0.637,0.6367,0.6317,0.6417
+Baseline LightGBM,0.7008,0.6979,0.6405,0.6416,0.6342,0.6491
+CatBoost V3,0.7,0.6973,0.639,0.6384,0.6338,0.6431
+Scaled Logistic Regression,0.6405,0.6395,0.5983,0.5911,0.5964,0.5859
