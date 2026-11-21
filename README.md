@@ -9,7 +9,7 @@
 
 ---
 
-## 🗂️ Executive Overview
+##  Executive Overview
 
 This repository contains an end-to-end, scientifically validated, reproducible Data Science portfolio project for **Company A**, an anonymous US wireless telecommunications operator with 100,000 subscriber records.
 
@@ -47,7 +47,7 @@ This repository contains an end-to-end, scientifically validated, reproducible D
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```
 GCI-World-Final-Assignment/
@@ -108,7 +108,7 @@ GCI-World-Final-Assignment/
 
 ---
 
-## 🔬 Methodology & Scientific Validation
+##  Methodology & Scientific Validation
 
 ### 1. Zero Data Leakage Architecture & Test Set Integrity
 * **Structural Cleaning:** Unconditionally dropped customer identifier (`Customer_ID`), heavily missing columns with >35% missingness (`numbcars`, `dwllsize`, `HHstatin`), and collinear duplicates (`adjrev`, `adjmou`, `adjqty`).
@@ -161,7 +161,7 @@ On the 20,000 reserved test partition, candidate models achieved the following p
 
 ---
 
-## 💼 Business Proposal: Precision Retention Programme (PRP)
+##  Business Proposal: Precision Retention Programme (PRP)
 
 Using the champion model's risk thresholds on predicted churn probabilities (note: no post-hoc Platt scaling or isotonic calibration was applied), subscribers are segmented into three operational tiers:
 
@@ -233,7 +233,7 @@ Evaluates historical test-set performance using actual observed churn labels (1,
 
 ---
 
-## 🚀 How to Reproduce
+##  How to Reproduce
 
 ### 1. Environment Setup
 ```bash
@@ -254,13 +254,5 @@ python3 src/generate_presentation.py
 
 ---
 
-## 📋 Omnicampus Submission Checklist
-
-1. **Slide File Naming:** `[OmnicampusAccountName].pdf` — Verified size: **892 KB** across exactly **15 slides**.
-2. **Notebook File Naming:** `[OmnicampusAccountName].ipynb` — Verified clean execution across 30 cells with all outputs intact.
-3. **List of References Field:** Copy contents of [`reports/references.md`](reports/references.md).
-4. **Generative AI Chat URL:** `https://gemini.google.com/share/8f3373e04b344d08a5a6c67c1332d860` (Conversation ID: `8f3373e0-4b34-4d08-a5a6-c67c1332d860`).
-
----
 
 *GCI World 2026 September Final Assignment | Company A Telecommunications | All Rights Reserved*
